@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Digital Greenhouse</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenOS | DigitalGreenhouse.net</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #e0f5e0; padding: 2rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; color: #2d6a4f; }
+        header p { font-size: 1.2rem; color: #52796f; }
+        nav { background-color: #b7e4c7; display: flex; justify-content: center; padding: 1rem; }
+        nav a { margin: 0 1rem; text-decoration: none; color: #1b4332; font-weight: bold; }
+        section { padding: 2rem; max-width: 960px; margin: auto; }
+        footer { background-color: #95d5b2; text-align: center; padding: 1rem; margin-top: 2rem; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+        .card { background-color: #f0fdf4; padding: 1rem; border-left: 4px solid #40916c; }
+        .cta { text-align: center; margin: 2rem 0; }
+        .cta a { background-color: #40916c; color: white; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 4px; }
+    </style>
 </head>
 <body>
-  <h1>Hello from GitHub Pages</h1>
-  <p>If you're seeing this, it's working!</p>
+    <header>
+        <h1>GreenOS</h1>
+        <p>Software that Grows With You — Simulate, Optimize, and Scale Your Greenhouse</p>
+    </header>
+
+    <nav>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>GreenOS emulates the full lifecycle of a controlled environment agriculture system using real-world data inputs from Excel. The process includes:</p>
+        <ul>
+            <li>Input Configuration: Upload Excel files</li>
+            <li>Simulation: Model crop growth, costs, and revenue</li>
+            <li>Results: Generate reports in HTML, Excel, and console</li>
+        </ul>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Cost Modeling</h3>
+                <p>Track cultivation, utilities, labor, packaging, and transport costs per crop per period.</p>
+            </div>
+            <div class="card">
+                <h3>Crop Simulation</h3>
+                <p>Generate per-period output by crop and by market segment (retail/foodservice).</p>
+            </div>
+            <div class="card">
+                <h3>Revenue Forecasting</h3>
+                <p>Link output to market pricing schedules for revenue projections.</p>
+            </div>
+            <div class="card">
+                <h3>Environment Emulation</h3>
+                <p>Simulate climate variables like CO₂, temperature, and humidity.</p>
+            </div>
+            <div class="card">
+                <h3>Reporting Engine</h3>
+                <p>Export professional-grade reports in multiple formats with rich visual support.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="use-cases">
+        <h2>Use Cases</h2>
+        <ul>
+            <li><strong>Farm Operators:</strong> Optimize operations and improve margins</li>
+            <li><strong>Investors:</strong> Simulate financial outcomes and risk scenarios</li>
+            <li><strong>Researchers:</strong> Test hypotheses in a sandbox environment</li>
+            <li><strong>Educators:</strong> Teach agriculture, finance, and sustainability through simulation</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>The GreenOS Team</h2>
+        <p>GreenOS is developed by a team of technologists and agricultural pioneers led by John May, in collaboration with partners like Harris University and Greenswell Growers.</p>
+    </section>
+
+    <section class="cta">
+        <h2>Try a Demo</h2>
+        <p>Explore sample simulations and see how GreenOS can transform your approach to greenhouse management.</p>
+        <a href="#contact">Request a Demo</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@digitalgreenhouse.net</p>
+        <p>Have questions, feedback, or partnership inquiries? Let’s talk.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DigitalGreenhouse.net | All rights reserved</p>
+    </footer>
 </body>
 </html>
